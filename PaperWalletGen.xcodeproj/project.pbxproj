@@ -14,6 +14,23 @@
 		8308C48B1B09D3200095960E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8308C48A1B09D3200095960E /* Images.xcassets */; };
 		8308C48E1B09D3200095960E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8308C48C1B09D3200095960E /* LaunchScreen.xib */; };
 		8308C49A1B09D3200095960E /* PaperWalletGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4991B09D3200095960E /* PaperWalletGenTests.m */; };
+		8308C4B51B09D34D0095960E /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4A51B09D34D0095960E /* bitstream.c */; };
+		8308C4B61B09D34D0095960E /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4A51B09D34D0095960E /* bitstream.c */; };
+		8308C4B71B09D34D0095960E /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4A71B09D34D0095960E /* mask.c */; };
+		8308C4B81B09D34D0095960E /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4A71B09D34D0095960E /* mask.c */; };
+		8308C4B91B09D34D0095960E /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4A91B09D34D0095960E /* qrencode.c */; };
+		8308C4BA1B09D34D0095960E /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4A91B09D34D0095960E /* qrencode.c */; };
+		8308C4BB1B09D34D0095960E /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4AB1B09D34D0095960E /* qrinput.c */; };
+		8308C4BC1B09D34D0095960E /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4AB1B09D34D0095960E /* qrinput.c */; };
+		8308C4BD1B09D34D0095960E /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4AD1B09D34D0095960E /* qrspec.c */; };
+		8308C4BE1B09D34D0095960E /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4AD1B09D34D0095960E /* qrspec.c */; };
+		8308C4BF1B09D34D0095960E /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4AF1B09D34D0095960E /* rscode.c */; };
+		8308C4C01B09D34D0095960E /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4AF1B09D34D0095960E /* rscode.c */; };
+		8308C4C11B09D34D0095960E /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4B11B09D34D0095960E /* split.c */; };
+		8308C4C21B09D34D0095960E /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4B11B09D34D0095960E /* split.c */; };
+		8308C4C31B09D34D0095960E /* UIImage+MDQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4B41B09D34D0095960E /* UIImage+MDQRCode.m */; };
+		8308C4C41B09D34D0095960E /* UIImage+MDQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308C4B41B09D34D0095960E /* UIImage+MDQRCode.m */; };
+		DBE1D13239620A46C17BA3D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E444503E9D242E8BB5EB4647 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21F6BC70CD1EB19BD33B61C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8308C47A1B09D3200095960E /* PaperWalletGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperWalletGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308C47E1B09D3200095960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8308C47F1B09D3200095960E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +58,24 @@
 		8308C4931B09D3200095960E /* PaperWalletGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperWalletGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308C4981B09D3200095960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8308C4991B09D3200095960E /* PaperWalletGenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperWalletGenTests.m; sourceTree = "<group>"; };
+		8308C4A51B09D34D0095960E /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		8308C4A61B09D34D0095960E /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		8308C4A71B09D34D0095960E /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		8308C4A81B09D34D0095960E /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		8308C4A91B09D34D0095960E /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		8308C4AA1B09D34D0095960E /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		8308C4AB1B09D34D0095960E /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		8308C4AC1B09D34D0095960E /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		8308C4AD1B09D34D0095960E /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		8308C4AE1B09D34D0095960E /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		8308C4AF1B09D34D0095960E /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		8308C4B01B09D34D0095960E /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		8308C4B11B09D34D0095960E /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		8308C4B21B09D34D0095960E /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		8308C4B31B09D34D0095960E /* UIImage+MDQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MDQRCode.h"; sourceTree = "<group>"; };
+		8308C4B41B09D34D0095960E /* UIImage+MDQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MDQRCode.m"; sourceTree = "<group>"; };
+		9A0006205D00B1188198FD68 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E444503E9D242E8BB5EB4647 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE1D13239620A46C17BA3D1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8267147866E28D383C9113AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A0006205D00B1188198FD68 /* Pods.debug.xcconfig */,
+				21F6BC70CD1EB19BD33B61C5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8308C4711B09D3200095960E = {
 			isa = PBXGroup;
 			children = (
 				8308C47C1B09D3200095960E /* PaperWalletGen */,
 				8308C4961B09D3200095960E /* PaperWalletGenTests */,
 				8308C47B1B09D3200095960E /* Products */,
+				8267147866E28D383C9113AE /* Pods */,
+				CDFF4BEA006D30B4839C4B1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +129,7 @@
 		8308C47C1B09D3200095960E /* PaperWalletGen */ = {
 			isa = PBXGroup;
 			children = (
+				8308C4A31B09D33E0095960E /* QRCode */,
 				8308C4811B09D3200095960E /* AppDelegate.h */,
 				8308C4821B09D3200095960E /* AppDelegate.m */,
 				8308C4841B09D3200095960E /* ViewController.h */,
@@ -119,6 +168,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8308C4A31B09D33E0095960E /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				8308C4A41B09D34D0095960E /* libqrencode */,
+				8308C4B31B09D34D0095960E /* UIImage+MDQRCode.h */,
+				8308C4B41B09D34D0095960E /* UIImage+MDQRCode.m */,
+			);
+			name = QRCode;
+			sourceTree = "<group>";
+		};
+		8308C4A41B09D34D0095960E /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				8308C4A51B09D34D0095960E /* bitstream.c */,
+				8308C4A61B09D34D0095960E /* bitstream.h */,
+				8308C4A71B09D34D0095960E /* mask.c */,
+				8308C4A81B09D34D0095960E /* mask.h */,
+				8308C4A91B09D34D0095960E /* qrencode.c */,
+				8308C4AA1B09D34D0095960E /* qrencode.h */,
+				8308C4AB1B09D34D0095960E /* qrinput.c */,
+				8308C4AC1B09D34D0095960E /* qrinput.h */,
+				8308C4AD1B09D34D0095960E /* qrspec.c */,
+				8308C4AE1B09D34D0095960E /* qrspec.h */,
+				8308C4AF1B09D34D0095960E /* rscode.c */,
+				8308C4B01B09D34D0095960E /* rscode.h */,
+				8308C4B11B09D34D0095960E /* split.c */,
+				8308C4B21B09D34D0095960E /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		CDFF4BEA006D30B4839C4B1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E444503E9D242E8BB5EB4647 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8308C49D1B09D3200095960E /* Build configuration list for PBXNativeTarget "PaperWalletGen" */;
 			buildPhases = (
+				413A5D632E6CB0CEC04E499B /* Check Pods Manifest.lock */,
 				8308C4761B09D3200095960E /* Sources */,
 				8308C4771B09D3200095960E /* Frameworks */,
 				8308C4781B09D3200095960E /* Resources */,
+				01D20FD5DF4959D757439C96 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +304,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01D20FD5DF4959D757439C96 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		413A5D632E6CB0CEC04E499B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8308C4761B09D3200095960E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8308C4B91B09D34D0095960E /* qrencode.c in Sources */,
+				8308C4BB1B09D34D0095960E /* qrinput.c in Sources */,
+				8308C4C31B09D34D0095960E /* UIImage+MDQRCode.m in Sources */,
+				8308C4B71B09D34D0095960E /* mask.c in Sources */,
 				8308C4861B09D3200095960E /* ViewController.m in Sources */,
+				8308C4BF1B09D34D0095960E /* rscode.c in Sources */,
 				8308C4831B09D3200095960E /* AppDelegate.m in Sources */,
 				8308C4801B09D3200095960E /* main.m in Sources */,
+				8308C4B51B09D34D0095960E /* bitstream.c in Sources */,
+				8308C4C11B09D34D0095960E /* split.c in Sources */,
+				8308C4BD1B09D34D0095960E /* qrspec.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8308C4C41B09D34D0095960E /* UIImage+MDQRCode.m in Sources */,
+				8308C4BA1B09D34D0095960E /* qrencode.c in Sources */,
+				8308C4BE1B09D34D0095960E /* qrspec.c in Sources */,
+				8308C4B81B09D34D0095960E /* mask.c in Sources */,
+				8308C4C01B09D34D0095960E /* rscode.c in Sources */,
+				8308C4C21B09D34D0095960E /* split.c in Sources */,
+				8308C4BC1B09D34D0095960E /* qrinput.c in Sources */,
 				8308C49A1B09D3200095960E /* PaperWalletGenTests.m in Sources */,
+				8308C4B61B09D34D0095960E /* bitstream.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +486,7 @@
 		};
 		8308C49E1B09D3200095960E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0006205D00B1188198FD68 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaperWalletGen/Info.plist;
@@ -357,6 +497,7 @@
 		};
 		8308C49F1B09D3200095960E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F6BC70CD1EB19BD33B61C5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaperWalletGen/Info.plist;
@@ -418,6 +559,7 @@
 				8308C49F1B09D3200095960E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8308C4A01B09D3200095960E /* Build configuration list for PBXNativeTarget "PaperWalletGenTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +568,7 @@
 				8308C4A21B09D3200095960E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
