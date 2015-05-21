@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>703AE2BD-92AD-4A3A-8C6E-EE8BCDBDD509</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PaperWalletGen</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB003F38B408B6702C38D8293A92CB9548D9BA21</key>
+		<string>github.com:fluidjax/paper_wallet_generator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PaperWalletGen.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB003F38B408B6702C38D8293A92CB9548D9BA21</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:fluidjax/paper_wallet_generator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB003F38B408B6702C38D8293A92CB9548D9BA21</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB003F38B408B6702C38D8293A92CB9548D9BA21</string>
+			<key>IDESourceControlWCCName</key>
+			<string>paper_wallet_generator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
