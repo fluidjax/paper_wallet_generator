@@ -9,4 +9,4 @@ Uses
   QRGenerator    https://github.com/moqod/ios-qr-code-encoder
   CoreBitcoin    https://github.com/oleganza/CoreBitcoin
 
-
+.
